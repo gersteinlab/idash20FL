@@ -1,0 +1,5 @@
+BC-TCGA contains 61 normal tissue samples and 529 breast cancer tissue samples (sample per column). Each sample has 17,814 genes (gene per row).
+
+Each data file contains either normal tissue samples or breast cancer tissue samples. The first column indicates gene index. The sample gene expression data starts from the second column with the first row displaying the sample id (TCGA 'Hybridization REF' Barcode).
+
+Reference: DOI: http://dx.doi.org/10.17632/v3cc2p38hb.1#file-c6b0b7d3-a63d-4ec7-87d5-ac2b81f38e00
