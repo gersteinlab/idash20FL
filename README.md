@@ -24,3 +24,17 @@ which are currently specific to our testing configuration. Additionally, change 
 to be specific to your directory architecture. Finally, you can change the hyperparameters we use in the server.py file. 
 To run server.py, you must run it via the shell and additionally insert system arguments of the data files' name in clients 1 and 2, 
 the target epsilon value, and the username-password combinations for each of the server and client side.
+
+After setting up the paths in the server.py and Client.py scripts, use
+
+```python3 server.py <data1> <data2> <epsilon> <userNameServer> <passWordServer> <userNameClient1> <passWordClient1> <userNameClient2> <passWordClient2>```
+
+data1: name of the training data file on Client 1
+data2: name of the training data file on Client 2
+epsilon: desired privacy parameter in differential privacy (smaller values mean more privacy enforced)
+userNameServer: user name on the server for ssh access
+passWordServer: password on the server for ssh access
+userNameClient1/2: user name on the client for ssh access
+passWordClient1/2: password on the client for ssh access
+
+
