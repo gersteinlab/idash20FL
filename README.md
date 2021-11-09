@@ -7,6 +7,9 @@ loss_accuracy.py creates graphs of loss and accuracy by epsilon value,
 precision_recall.py creates tables of precision-recall pairs by epsilon value, 
 and vanilla_nn.ipynb creates these images for a non-federated neural network used for benchmarking.
 
+In order to use these files, the relevant .pkl files produced from server.py must be placed in directories. 
+The filepaths within the code must be changed in order to match the locations of the directories. 
+
 ## Model:
 data_generator.ipynb consists of a framework of code which we used to generate training/validation/testing datasets. 
 By simply modifying the numbers in this code we can generate IID & Equal, Non-IID & Equal, IID & Unequal, and Non-IID & Unequal data splits 
